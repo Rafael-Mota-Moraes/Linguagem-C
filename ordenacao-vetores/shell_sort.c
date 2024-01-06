@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Função de ordenação Shell Sort
-void shell_sort(int vetor[], int tam)
+void quick_sort(int vetor[], int tam)
 {
     int grupo = 1;
 
@@ -42,7 +42,7 @@ int main()
     int vetor[6] = {8, 3, 1, 42, 12, 5};
 
     // Chamando a função de ordenação usando Shell Sort
-    shell_sort(vetor, 6);
+    quick_sort(vetor, 6);
 
     // Exibindo o vetor ordenado
     for (int i = 0; i < 6; i++)
