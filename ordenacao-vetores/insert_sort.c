@@ -27,7 +27,7 @@ int main()
     // vetor desordenado
     int vetor[6] = {8, 3, 1, 42, 12, 5};
 
-    // função de ordenação utilizando select sort
+    // função de ordenação utilizando insert sort
     insert_sort(vetor, 6);
 
     // apresentar vetor ordenado
